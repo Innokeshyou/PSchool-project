@@ -1,0 +1,34 @@
+:root {
+    --color-bg-light: #1E1F29;
+    --margin-40: 40px;
+    --max-width: 1220px;
+    --color-text: #fafafa;
+    --color-hover: #AFB2BF;
+    --color-hover-footer: #4D5064;
+    --button-color: #6C38CC;
+    --button-color-hover: #572aaa;
+    --button-ghost-hover: #4D5064;
+    --footer-menu-color: #E47AD5;
+    --color-bg-cards: #1E1F29;
+
+    --border-10: 10px;
+    --border-8: 8px;
+
+    --gradient: linear-gradient(93.33deg, #d77be6 9.26%, #be63e6 42.32%, #6c38cc 104.58%);
+}
+
+html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #16171D;
+    margin: 0;
+    font-family: 'Fira Sans';
+}

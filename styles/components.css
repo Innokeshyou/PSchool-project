@@ -1,0 +1,142 @@
+/* H1 */
+
+.hero__h1 {
+    font-size: 54px;
+    font-weight: 700;
+    line-height: 54px;
+    color: var(--color-text);
+
+}
+
+.hero__h1_gradient {
+    background: linear-gradient(93.33deg, #d77be6 9.26%, #be63e6 42.32%, #6c38cc 104.58%);
+    -webkit-text-fill-color: transparent;
+    -webkit-bacground-clip: text;
+    background-clip: text;
+}
+
+@media(max-width:640px) {
+    .hero__h1 {
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 36px;
+        max-width: 312px;
+
+    }
+}
+
+/* Button */
+
+.button {
+    padding: 16px 32px;
+    border-radius: var(--border-10);
+    color: var(--color-text);
+    border: none;
+    background: none;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.6px;
+    text-align: center;
+    cursor: pointer;
+    display: inline-block;
+}
+
+.button__color {
+    background: var(--button-color);
+}
+
+.button__color:hover {
+    background: var(--button-color-hover);
+}
+
+.button__ghost {
+    border: 1px solid var(--button-ghost-hover);
+    text-decoration: none;
+}
+
+.button__ghost:hover {
+    background-color: var(--button-ghost-hover);
+}
+
+.blog__text_color {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.6px;
+    color: var(--footer-menu-color);
+}
+
+.blog__h2 {
+    color: var(--color-text);
+    font-size: 46px;
+    font-weight: 400;
+    line-height: 55.2px;
+    padding: 0;
+    margin: 0;
+}
+
+.blog__paragraph {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    color: var(--color-text);
+    max-width: 787px;
+    margin: 0 0 32px 0;
+}
+
+.blog__card {
+    display: flex;
+    gap: 32px;
+}
+
+.blog_stats {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    color: var(--color-hover);
+    margin-bottom: 12px;
+}
+
+.blog__h3 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.8px;
+    color: var(--color-text);
+    margin: 0 0 12px 0;
+}
+
+.card__paragraph {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--color-text);
+    max-width: 742px;
+}
+
+.blog__write {
+    display: flex;
+    justify-content: space-between;
+}
+
+.blog__button {
+    background: none;
+    border: 1px solid var(--color-hover-footer);
+    border-radius: var(--border-8);
+    color: var(--color-text);
+    width: 158px;
+    height: 54px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.6px;
+}
+
+.blog__button:hover {
+    background: var(--button-ghost-hover);
+}
+
+.blog__all {
+    text-align: center;
+}
+
+.blog__all:hover {
+    background: var(--button-ghost-hover);
+}

@@ -1,0 +1,126 @@
+/* Hero */
+
+.section__hero {
+    padding: 100px 24px;
+    background: var(--color-bg-light);
+}
+
+.hero {
+    display: flex;
+    max-width: var(--max-width);
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.hero__left {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.hero__cta {
+    display: flex;
+    gap: 32px;
+}
+
+.section__blog_wrapper {
+    padding: 100px 24px;
+    max-width: var(--max-width);
+    margin: 0 auto;
+}
+
+.headling {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-bottom: 32px;
+}
+
+.blog__cards {
+    background-color: var(--color-bg-cards);
+    margin: 48px auto 48px;
+    padding: 34px 40px 15px 32px;
+    border-radius: var(--border-10);
+    display: flex;
+    justify-content: space-between;
+
+}
+
+@media(max-width:990px) {
+    .hero {
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        padding: 24px;
+    }
+
+    .hero__left {
+        align-items: center;
+        text-align: center;
+    }
+
+    .section__hero {
+        padding: 0;
+    }
+}
+
+@media(max-width:570px) {
+    .hero__right {
+        width: 100%;
+    }
+
+    .hero {
+        padding: 0 24px;
+    }
+
+    .section__hero {
+        padding: 0 24px;
+    }
+}
+
+@media(max-width:460px) {
+    .section__blog_wrapper {
+        padding: 52px 24px 32px;
+    }
+
+    .headling {
+        margin-bottom: 24px;
+    }
+
+    .blog__paragraph {
+        margin-bottom: 16px;
+        max-width: 312px;
+    }
+
+    .blog__top {
+        margin-bottom: 24px;
+    }
+
+    .blog__cards {
+        margin-top: 0 0 24px 0;
+        flex-direction: column;
+    }
+
+    .blog__h3 {
+        font-size: 21px;
+        font-weight: 700;
+        line-height: 25.2px;
+    }
+
+    .card__paragraph {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+
+    .blog__card {
+        gap: 16px;
+    }
+
+    .blog__button {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    .blog__button_ghost {}
+}
